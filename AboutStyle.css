@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header Styles */
+h1 {
+  text-align: center;
+  margin: 50px 0 20px 0;
+}
+
+/* Navigation Styles */
+a {
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 150px;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Main Content Styles */
+h3 {
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Contact Information Styles */
+p:last-of-type {
+  margin-bottom: 50px;
+}
+
+p:last-of-type br {
+  display: none;
+}
+
+/* Media Query for Small Screens */
+@media only screen and (max-width: 768px) {
+  a {
+    max-width: 100%;
+  }
+}
